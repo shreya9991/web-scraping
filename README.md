@@ -28,9 +28,9 @@ from scholarly import scholarly
 # Retrieve the author's data, fill-in, and print
 
 ```
-search_query = scholarly.search_author('Steven A Cholewiak')
-author = next(search_query).fill()
-print(author)
+>>>search_query = scholarly.search_author('Steven A Cholewiak')
+>>>author = next(search_query).fill()
+>>>print(author)
 ```
 # Print the titles of the author's publications
 
