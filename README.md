@@ -52,11 +52,16 @@ print([citation.bib['title'] for citation in pub.citedby])
 ```
 
 
->>> search_query = scholarly.search_author('Steven A Cholewiak')
->>> author = next(search_query)
->>> print(author.fill(sections=['basics', 'indices', 'coauthors']))
+### OUTPUT IS IN JSON FORMAT
+
+```
+ search_query = scholarly.search_author('Steven A Cholewiak')
+ author = next(search_query)
+ print(author.fill(sections=['basics', 'indices', 'coauthors']))
+```
 
 
+```
 {'affiliation': 'Vision Scientist',
  'citedby': 288,
  'citedby5y': 211,
@@ -159,3 +164,4 @@ print([citation.bib['title'] for citation in pub.citedby])
                'Haptics'],
  'name': 'Steven A. Cholewiak, PhD',
  'url_picture': 'https://scholar.google.com/citations?view_op=medium_photo&user=4bahYMkAAAAJ'}
+```
