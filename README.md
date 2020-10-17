@@ -1,2 +1,1 @@
-# web-scraping
-contains the code to scrap sites using python .
+# Instructions to use  GOOGLE SCHOLAR scrapper.
