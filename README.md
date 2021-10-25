@@ -1,6 +1,6 @@
 # Instructions to use  GOOGLE SCHOLAR scrapper.
 
-## scholarly
+## Scholarly
 
 scholarly is a module that allows you to retrieve author and publication information from Google Scholar in a friendly way.
 
